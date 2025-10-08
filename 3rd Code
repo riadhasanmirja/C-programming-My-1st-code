@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+int a;
+
+int b;
+
+int c;
+
+printf("Enter your 1st valu :");
+
+scanf("%d",&a);
+
+printf("Enter your 2nd valu: ");
+
+scanf("%d",&b);
+
+printf("Enter your 3rd valu: ");
+
+scanf("%d",&c);
+
+int sum = a+b+c;
+
+printf("sum is %d", sum);
+
+return 0;
+
+}
