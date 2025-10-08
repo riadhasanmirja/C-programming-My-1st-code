@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main ()
+
+{
+
+int a;
+
+float b = 3.1416;
+
+printf("radius is:");
+
+scanf("%d",&a);
+
+printf("pi is %f\n",b);
+
+float area = b*a*a;
+
+printf("area is %f", area);
+
+return 0;
+
+}
